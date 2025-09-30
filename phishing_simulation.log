@@ -1,0 +1,1772 @@
+2025-09-29 15:37:46,155 [INFO] === START phishing_simulation ===
+2025-09-29 15:37:46,156 [INFO] Initial small sleep to allow page assets to settle (3s)
+2025-09-29 15:37:49,157 [INFO] STEP: Click phishing button — locating xpath: /html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/h3/button
+2025-09-29 15:37:52,156 [WARNING] Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-09-29 15:37:56,679 [WARNING] Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-09-29 15:38:01,854 [INFO] OK: Click phishing button
+2025-09-29 15:38:01,855 [INFO] STEP: Click email campaign — locating xpath: /html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/div/div/ul/li[1]/a/button
+2025-09-29 15:38:01,941 [INFO] OK: Click email campaign
+2025-09-29 15:38:01,942 [INFO] STEP: Click create campaign — locating xpath: /html/body/div/section[2]/main/div/nav/div/div[2]/button
+2025-09-29 15:38:02,174 [INFO] OK: Click create campaign
+2025-09-29 15:38:02,175 [INFO] STEP: Fill campaign name — locating xpath: /html/body/div/section[2]/main/div/div[4]/div/div/input
+2025-09-29 15:38:07,975 [ERROR] FAILED: Fill campaign name -> 'NoneType' object has no attribute 'is_displayed'
+2025-09-29 15:38:07,999 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:08,000 [INFO] STEP: Open recipient dropdown — locating xpath: /html/body/div/section[2]/main/div/div[5]/div/div/button
+2025-09-29 15:38:08,007 [ERROR] FAILED: Open recipient dropdown -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:08,013 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:08,015 [INFO] STEP: Click next/submit — locating xpath: /html/body/div/section[2]/main/div/div[5]/div[2]/button
+2025-09-29 15:38:08,020 [ERROR] FAILED: Click next/submit -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:08,023 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:08,024 [INFO] STEP: Open email template picker — locating xpath: /html/body/div/section[2]/main/div/div[4]/div/div/div/button
+2025-09-29 15:38:08,028 [ERROR] FAILED: Open email template picker -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:08,034 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:08,036 [INFO] STEP: Click retry/next (post-email) — locating xpath: /html/body/div[1]/section[2]/main/div/div[4]/div[2]/button[2]
+2025-09-29 15:38:08,042 [ERROR] FAILED: Click retry/next (post-email) -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:08,045 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:09,046 [INFO] STEP: Open landing page picker — locating xpath: /html/body/div/section[2]/main/div/div[4]/div/div/button
+2025-09-29 15:38:09,052 [ERROR] FAILED: Open landing page picker -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:09,058 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:09,061 [INFO] STEP: Open time-of-landing selector — locating xpath: /html/body/div[1]/section[2]/main/div/div[4]/div[2]/div[1]/button
+2025-09-29 15:38:09,064 [ERROR] FAILED: Open time-of-landing selector -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:09,069 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:09,070 [INFO] STEP: Click multiple visit option — locating xpath: /html/body/div/section[2]/main/div/div[4]/div[2]/div[4]/button
+2025-09-29 15:38:09,073 [ERROR] FAILED: Click multiple visit option -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:09,076 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:09,078 [INFO] STEP: Click next after landing options — locating xpath: /html/body/div/section[2]/main/div/div[4]/div[3]/button[2]
+2025-09-29 15:38:09,080 [ERROR] FAILED: Click next after landing options -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:09,083 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:10,084 [INFO] STEP: Fill form name — locating xpath: /html/body/div[1]/section[2]/main/div/div[4]/div[1]/div/input
+2025-09-29 15:38:10,086 [ERROR] FAILED: Fill form name -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:10,088 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:10,089 [INFO] STEP: Open sending domain picker — locating xpath: //*[@id="__next"]/section[2]/main/div/div[5]/div[1]/div/button
+2025-09-29 15:38:10,091 [ERROR] FAILED: Open sending domain picker -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:10,093 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:10,093 [INFO] STEP: Click privacy/consent checkbox — locating xpath: /html/body/div[1]/section[2]/main/div/div[5]/div[2]/button
+2025-09-29 15:38:10,095 [ERROR] FAILED: Click privacy/consent checkbox -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:10,097 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:10,098 [INFO] STEP: Click campaign Launch — locating xpath: /html/body/div[1]/section[2]/main/div/div[5]/div[3]/button[2]
+2025-09-29 15:38:10,100 [ERROR] FAILED: Click campaign Launch -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:10,102 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:11,001 [ERROR] Login simulation failed: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:13,170 [INFO] STEP: Select launched campaign in list — locating xpath: /html/body/div[1]/section[2]/main/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/div/div/span/div/button[3]
+2025-09-29 15:38:13,175 [ERROR] FAILED: Select launched campaign in list -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:13,181 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:13,183 [INFO] === END phishing_simulation ===
+2025-09-29 15:38:13,183 [INFO] === PHISHING SIMULATION SUMMARY ===
+2025-09-29 15:38:13,184 [INFO] click_phishing_button                    : OK
+2025-09-29 15:38:13,185 [INFO] click_email_campaign                     : OK
+2025-09-29 15:38:13,185 [INFO] click_create_campaign                    : OK
+2025-09-29 15:38:13,186 [INFO] fill_campaign_name                       : FAILED
+2025-09-29 15:38:13,187 [INFO] open_recipient_dropdown                  : FAILED
+2025-09-29 15:38:13,187 [INFO] choose_recipient_option                  : FAILED
+2025-09-29 15:38:13,188 [INFO] click_submit_next                        : FAILED
+2025-09-29 15:38:13,188 [INFO] open_email_template                      : FAILED
+2025-09-29 15:38:13,189 [INFO] select_all_template                      : FAILED
+2025-09-29 15:38:13,190 [INFO] close_email_page                         : FAILED
+2025-09-29 15:38:13,190 [INFO] click_retry_next_after_email             : FAILED
+2025-09-29 15:38:13,191 [INFO] open_landing_page_picker                 : FAILED
+2025-09-29 15:38:13,191 [INFO] choose_landing_page                      : FAILED
+2025-09-29 15:38:13,191 [INFO] open_time_of_landing                     : FAILED
+2025-09-29 15:38:13,192 [INFO] choose_30s_time                          : FAILED
+2025-09-29 15:38:13,192 [INFO] click_multiple_visit                     : FAILED
+2025-09-29 15:38:13,192 [INFO] click_landing_next                       : FAILED
+2025-09-29 15:38:13,193 [INFO] fill_form_name                           : FAILED
+2025-09-29 15:38:13,193 [INFO] open_sending_domain_picker               : FAILED
+2025-09-29 15:38:13,193 [INFO] choose_sending_domain                    : FAILED
+2025-09-29 15:38:13,194 [INFO] click_privacy_checkbox                   : FAILED
+2025-09-29 15:38:13,194 [INFO] click_campaign_launch                    : FAILED
+2025-09-29 15:38:13,195 [INFO] toast_detected                           : FAILED
+2025-09-29 15:38:13,195 [INFO] smishing_simulation                      : FAILED
+2025-09-29 15:38:13,195 [INFO] select_launched_campaign                 : FAILED
+2025-09-29 15:38:13,196 [INFO] Succeeded 3 / 25 steps
+2025-09-29 15:38:13,196 [INFO] Detailed log file: phishing_simulation.log
+2025-09-29 15:38:31,002 [INFO] === START phishing_simulation ===
+2025-09-29 15:38:31,003 [INFO] Initial small sleep to allow page assets to settle (3s)
+2025-09-29 15:38:34,005 [INFO] STEP: Click phishing button — locating xpath: /html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/h3/button
+2025-09-29 15:38:34,010 [ERROR] FAILED: Click phishing button -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,018 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,021 [INFO] STEP: Click email campaign — locating xpath: /html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/div/div/ul/li[1]/a/button
+2025-09-29 15:38:34,025 [ERROR] FAILED: Click email campaign -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,029 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,030 [INFO] STEP: Click create campaign — locating xpath: /html/body/div/section[2]/main/div/nav/div/div[2]/button
+2025-09-29 15:38:34,033 [ERROR] FAILED: Click create campaign -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,036 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,037 [INFO] STEP: Fill campaign name — locating xpath: /html/body/div/section[2]/main/div/div[4]/div/div/input
+2025-09-29 15:38:34,040 [ERROR] FAILED: Fill campaign name -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,042 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,043 [INFO] STEP: Open recipient dropdown — locating xpath: /html/body/div/section[2]/main/div/div[5]/div/div/button
+2025-09-29 15:38:34,045 [ERROR] FAILED: Open recipient dropdown -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,047 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,048 [INFO] STEP: Click next/submit — locating xpath: /html/body/div/section[2]/main/div/div[5]/div[2]/button
+2025-09-29 15:38:34,050 [ERROR] FAILED: Click next/submit -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,053 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,053 [INFO] STEP: Open email template picker — locating xpath: /html/body/div/section[2]/main/div/div[4]/div/div/div/button
+2025-09-29 15:38:34,055 [ERROR] FAILED: Open email template picker -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,057 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,057 [INFO] STEP: Click retry/next (post-email) — locating xpath: /html/body/div[1]/section[2]/main/div/div[4]/div[2]/button[2]
+2025-09-29 15:38:34,059 [ERROR] FAILED: Click retry/next (post-email) -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:34,061 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:35,062 [INFO] STEP: Open landing page picker — locating xpath: /html/body/div/section[2]/main/div/div[4]/div/div/button
+2025-09-29 15:38:35,066 [ERROR] FAILED: Open landing page picker -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:35,072 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:35,075 [INFO] STEP: Open time-of-landing selector — locating xpath: /html/body/div[1]/section[2]/main/div/div[4]/div[2]/div[1]/button
+2025-09-29 15:38:35,080 [ERROR] FAILED: Open time-of-landing selector -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:35,084 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:35,085 [INFO] STEP: Click multiple visit option — locating xpath: /html/body/div/section[2]/main/div/div[4]/div[2]/div[4]/button
+2025-09-29 15:38:35,121 [ERROR] FAILED: Click multiple visit option -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:35,132 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:35,136 [INFO] STEP: Click next after landing options — locating xpath: /html/body/div/section[2]/main/div/div[4]/div[3]/button[2]
+2025-09-29 15:38:35,148 [ERROR] FAILED: Click next after landing options -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:35,151 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:36,153 [INFO] STEP: Fill form name — locating xpath: /html/body/div[1]/section[2]/main/div/div[4]/div[1]/div/input
+2025-09-29 15:38:36,158 [ERROR] FAILED: Fill form name -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:36,165 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:36,168 [INFO] STEP: Open sending domain picker — locating xpath: //*[@id="__next"]/section[2]/main/div/div[5]/div[1]/div/button
+2025-09-29 15:38:36,173 [ERROR] FAILED: Open sending domain picker -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:36,177 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:36,178 [INFO] STEP: Click privacy/consent checkbox — locating xpath: /html/body/div[1]/section[2]/main/div/div[5]/div[2]/button
+2025-09-29 15:38:36,181 [ERROR] FAILED: Click privacy/consent checkbox -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:36,184 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:36,185 [INFO] STEP: Click campaign Launch — locating xpath: /html/body/div[1]/section[2]/main/div/div[5]/div[3]/button[2]
+2025-09-29 15:38:36,187 [ERROR] FAILED: Click campaign Launch -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:36,190 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:39,222 [INFO] STEP: Select launched campaign in list — locating xpath: /html/body/div[1]/section[2]/main/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/div/div/span/div/button[3]
+2025-09-29 15:38:39,227 [ERROR] FAILED: Select launched campaign in list -> Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:39,235 [ERROR] Failed saving screenshot: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f0182a1]
+	(No symbol) [0x0x7ff70f0c799e]
+	(No symbol) [0x0x7ff70f0e8132]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:38:39,239 [INFO] === END phishing_simulation ===
+2025-09-29 15:38:39,240 [INFO] === PHISHING SIMULATION SUMMARY ===
+2025-09-29 15:38:39,241 [INFO] click_phishing_button                    : FAILED
+2025-09-29 15:38:39,241 [INFO] click_email_campaign                     : FAILED
+2025-09-29 15:38:39,242 [INFO] click_create_campaign                    : FAILED
+2025-09-29 15:38:39,242 [INFO] fill_campaign_name                       : FAILED
+2025-09-29 15:38:39,243 [INFO] open_recipient_dropdown                  : FAILED
+2025-09-29 15:38:39,244 [INFO] choose_recipient_option                  : FAILED
+2025-09-29 15:38:39,244 [INFO] click_submit_next                        : FAILED
+2025-09-29 15:38:39,245 [INFO] open_email_template                      : FAILED
+2025-09-29 15:38:39,245 [INFO] select_all_template                      : FAILED
+2025-09-29 15:38:39,246 [INFO] close_email_page                         : FAILED
+2025-09-29 15:38:39,246 [INFO] click_retry_next_after_email             : FAILED
+2025-09-29 15:38:39,246 [INFO] open_landing_page_picker                 : FAILED
+2025-09-29 15:38:39,247 [INFO] choose_landing_page                      : FAILED
+2025-09-29 15:38:39,247 [INFO] open_time_of_landing                     : FAILED
+2025-09-29 15:38:39,248 [INFO] choose_30s_time                          : FAILED
+2025-09-29 15:38:39,248 [INFO] click_multiple_visit                     : FAILED
+2025-09-29 15:38:39,249 [INFO] click_landing_next                       : FAILED
+2025-09-29 15:38:39,249 [INFO] fill_form_name                           : FAILED
+2025-09-29 15:38:39,250 [INFO] open_sending_domain_picker               : FAILED
+2025-09-29 15:38:39,250 [INFO] choose_sending_domain                    : FAILED
+2025-09-29 15:38:39,251 [INFO] click_privacy_checkbox                   : FAILED
+2025-09-29 15:38:39,251 [INFO] click_campaign_launch                    : FAILED
+2025-09-29 15:38:39,252 [INFO] toast_detected                           : FAILED
+2025-09-29 15:38:39,252 [INFO] smishing_simulation                      : FAILED
+2025-09-29 15:38:39,253 [INFO] select_launched_campaign                 : FAILED
+2025-09-29 15:38:39,253 [INFO] Succeeded 0 / 25 steps
+2025-09-29 15:38:39,253 [INFO] Detailed log file: phishing_simulation.log
+2025-09-29 15:40:55,675 [INFO] === START phishing_simulation (STOP_ON_FAILURE=True) ===
+2025-09-29 15:40:55,676 [INFO] Initial sleep to allow page load (2s)
+2025-09-29 15:40:57,677 [INFO] STEP: Click phishing button — attempting click xpath: /html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/h3/button
+2025-09-29 15:41:01,410 [WARNING] Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-09-29 15:41:05,864 [WARNING] Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-09-29 15:41:11,073 [INFO] OK: Click phishing button
+2025-09-29 15:41:11,074 [INFO] STEP: Click email campaign — attempting click xpath: /html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/div/div/ul/li[1]/a/button
+2025-09-29 15:41:11,694 [INFO] OK: Click email campaign
+2025-09-29 15:41:11,695 [INFO] STEP: Click create campaign — attempting click xpath: /html/body/div/section[2]/main/div/nav/div/div[2]/button
+2025-09-29 15:41:12,275 [INFO] OK: Click create campaign
+2025-09-29 15:41:12,275 [INFO] STEP: Fill campaign name — attempting send_keys xpath: /html/body/div/section[2]/main/div/div[4]/div/div/input
+2025-09-29 15:41:30,630 [ERROR] Login simulation failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f097cd7]
+	(No symbol) [0x0x7ff70f097f9c]
+	(No symbol) [0x0x7ff70f0eba87]
+	(No symbol) [0x0x7ff70f0c03bf]
+	(No symbol) [0x0x7ff70f0e87fb]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:41:43,132 [ERROR] FAILED: Fill campaign name after retries (xpath: /html/body/div/section[2]/main/div/div[4]/div/div/input)
+2025-09-29 15:41:43,135 [ERROR] Failed saving screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f04011c]
+	(No symbol) [0x0x7ff70f087c1d]
+	(No symbol) [0x0x7ff70f0c0242]
+	(No symbol) [0x0x7ff70f0bac14]
+	(No symbol) [0x0x7ff70f0b9cca]
+	(No symbol) [0x0x7ff70f00a755]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	(No symbol) [0x0x7ff70f009731]
+	GetHandleVerifier [0x0x7ff70f6ab568+4182008]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:41:43,137 [ERROR] Execution halted: Stopping execution due to failed critical step: fill_campaign_name
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\selenium_project\pages\phishing_page.py", line 235, in phishing_simulation
+  File "C:\Users\user\Desktop\selenium_project\pages\phishing_page.py", line 171, in _stop_if_needed
+    for tx in toast_xpaths:
+RuntimeError: Stopping execution due to failed critical step: fill_campaign_name
+2025-09-29 15:41:43,164 [ERROR] Failed saving screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f04011c]
+	(No symbol) [0x0x7ff70f087c1d]
+	(No symbol) [0x0x7ff70f0c0242]
+	(No symbol) [0x0x7ff70f0bac14]
+	(No symbol) [0x0x7ff70f0b9cca]
+	(No symbol) [0x0x7ff70f00a755]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	(No symbol) [0x0x7ff70f009731]
+	GetHandleVerifier [0x0x7ff70f6ab568+4182008]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:41:43,165 [INFO] === PHISHING SIMULATION SUMMARY ===
+2025-09-29 15:41:43,165 [INFO] click_phishing_button                    : OK
+2025-09-29 15:41:43,165 [INFO] click_email_campaign                     : OK
+2025-09-29 15:41:43,166 [INFO] click_create_campaign                    : OK
+2025-09-29 15:41:43,166 [INFO] fill_campaign_name                       : FAILED
+2025-09-29 15:41:43,166 [INFO] fatal_exception                          : FAILED
+2025-09-29 15:41:43,166 [INFO] Succeeded 3 / 5 steps
+2025-09-29 15:41:43,167 [INFO] Detailed log file: phishing_simulation.log
+2025-09-29 15:41:50,632 [INFO] === START phishing_simulation (STOP_ON_FAILURE=True) ===
+2025-09-29 15:41:50,632 [INFO] Initial sleep to allow page load (2s)
+2025-09-29 15:41:52,634 [INFO] STEP: Click phishing button — attempting click xpath: /html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/h3/button
+2025-09-29 15:42:22,723 [ERROR] FAILED: Click phishing button after retries (xpath: /html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/h3/button)
+2025-09-29 15:42:22,728 [ERROR] Failed saving screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f04011c]
+	(No symbol) [0x0x7ff70f087c1d]
+	(No symbol) [0x0x7ff70f0c0242]
+	(No symbol) [0x0x7ff70f0bac14]
+	(No symbol) [0x0x7ff70f0b9cca]
+	(No symbol) [0x0x7ff70f00a755]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	(No symbol) [0x0x7ff70f009731]
+	GetHandleVerifier [0x0x7ff70f6ab568+4182008]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:42:22,731 [ERROR] Execution halted: Stopping execution due to failed critical step: click_phishing_button
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\selenium_project\pages\login_page.py", line 47, in login_simulation
+        EC.element_to_be_clickable((By.XPATH, "/html/body/div/div[3]/div[1]/div[2]/div[2]/form/div/div[2]/a/button"))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+    cognito_button.click()
+    ^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f0402fa]
+	(No symbol) [0x0x7ff70f097cd7]
+	(No symbol) [0x0x7ff70f097f9c]
+	(No symbol) [0x0x7ff70f0eba87]
+	(No symbol) [0x0x7ff70f0c03bf]
+	(No symbol) [0x0x7ff70f0e87fb]
+	(No symbol) [0x0x7ff70f0c0153]
+	(No symbol) [0x0x7ff70f088b02]
+	(No symbol) [0x0x7ff70f0898d3]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	GetHandleVerifier [0x0x7ff70f2caf64+117236]
+	GetHandleVerifier [0x0x7ff70f2cb119+117673]
+	GetHandleVerifier [0x0x7ff70f2b10a8+11064]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\selenium_project\pages\phishing_page.py", line 216, in phishing_simulation
+  File "C:\Users\user\Desktop\selenium_project\pages\phishing_page.py", line 171, in _stop_if_needed
+    for tx in toast_xpaths:
+RuntimeError: Stopping execution due to failed critical step: click_phishing_button
+2025-09-29 15:42:22,767 [ERROR] Failed saving screenshot: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff70f2c1eb5+80197]
+	GetHandleVerifier [0x0x7ff70f2c1f10+80288]
+	(No symbol) [0x0x7ff70f04011c]
+	(No symbol) [0x0x7ff70f087c1d]
+	(No symbol) [0x0x7ff70f0c0242]
+	(No symbol) [0x0x7ff70f0bac14]
+	(No symbol) [0x0x7ff70f0b9cca]
+	(No symbol) [0x0x7ff70f00a755]
+	GetHandleVerifier [0x0x7ff70f57e83d+2949837]
+	GetHandleVerifier [0x0x7ff70f578c6a+2926330]
+	GetHandleVerifier [0x0x7ff70f5986c7+3055959]
+	GetHandleVerifier [0x0x7ff70f2dcfee+191102]
+	GetHandleVerifier [0x0x7ff70f2e50af+224063]
+	(No symbol) [0x0x7ff70f009731]
+	GetHandleVerifier [0x0x7ff70f6ab568+4182008]
+	BaseThreadInitThunk [0x0x7fff7eee259d+29]
+	RtlUserThreadStart [0x0x7fff80daaf78+40]
+
+2025-09-29 15:42:22,768 [INFO] === PHISHING SIMULATION SUMMARY ===
+2025-09-29 15:42:22,768 [INFO] click_phishing_button                    : FAILED
+2025-09-29 15:42:22,769 [INFO] fatal_exception                          : FAILED
+2025-09-29 15:42:22,769 [INFO] Succeeded 0 / 2 steps
+2025-09-29 15:42:22,769 [INFO] Detailed log file: phishing_simulation.log

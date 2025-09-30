@@ -1,0 +1,292 @@
+{"test": "login_simulation", "step": "open_page", "success": true, "start_ts": 1759141475.8265653, "end_ts": 1759141477.0653827, "duration_seconds": 1.2388141000010364, "message": "Step completed successfully"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "start_ts": 1759141477.068544, "end_ts": 1759141477.8125932, "duration_seconds": 0.7440452000009827, "message": "Step completed successfully"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "start_ts": 1759141477.8141289, "end_ts": 1759141481.989749, "duration_seconds": 4.1756163999998535, "message": "Step completed successfully"}
+{"test": "login_simulation", "step": "enter_password_and_click_signin", "success": true, "start_ts": 1759141481.9915125, "end_ts": 1759141486.3335593, "duration_seconds": 4.342045000001235, "message": "Step completed successfully"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "start_ts": 1759141486.3360934, "end_ts": 1759141486.4372768, "duration_seconds": 0.10118050000164658, "message": "Step completed successfully"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "start_ts": 1759141486.438406, "end_ts": 1759141490.7340744, "duration_seconds": 4.295664400000533, "message": "Step completed successfully"}
+{"test": "login_simulation", "step": "click_brand_button", "success": false, "start_ts": 1759141490.7355797, "end_ts": 1759141492.9804099, "duration_seconds": 2.2448273000009067, "error": "Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff70f2c1eb5+80197]\n\tGetHandleVerifier [0x0x7ff70f2c1f10+80288]\n\t(No symbol) [0x0x7ff70f0402fa]\n\t(No symbol) [0x0x7ff70f047e5a]\n\t(No symbol) [0x0x7ff70f04af6f]\n\t(No symbol) [0x0x7ff70f04b02f]\n\t(No symbol) [0x0x7ff70f099f4d]\n\t(No symbol) [0x0x7ff70f08ab33]\n\t(No symbol) [0x0x7ff70f0c037a]\n\t(No symbol) [0x0x7ff70f08a456]\n\t(No symbol) [0x0x7ff70f0c0590]\n\t(No symbol) [0x0x7ff70f0e87fb]\n\t(No symbol) [0x0x7ff70f0c0153]\n\t(No symbol) [0x0x7ff70f088b02]\n\t(No symbol) [0x0x7ff70f0898d3]\n\tGetHandleVerifier [0x0x7ff70f57e83d+2949837]\n\tGetHandleVerifier [0x0x7ff70f578c6a+2926330]\n\tGetHandleVerifier [0x0x7ff70f5986c7+3055959]\n\tGetHandleVerifier [0x0x7ff70f2dcfee+191102]\n\tGetHandleVerifier [0x0x7ff70f2e50af+224063]\n\tGetHandleVerifier [0x0x7ff70f2caf64+117236]\n\tGetHandleVerifier [0x0x7ff70f2cb119+117673]\n\tGetHandleVerifier [0x0x7ff70f2b10a8+11064]\n\tBaseThreadInitThunk [0x0x7fff7eee259d+29]\n\tRtlUserThreadStart [0x0x7fff80daaf78+40]\n", "screenshot": "screenshots/login_simulation_error_1759141492.png"}
+{"test": "login_simulation", "step": "final_page_wait", "success": true, "start_ts": 1759141493.0927165, "end_ts": 1759141493.1013143, "duration_seconds": 0.00859639999907813, "message": "Step completed successfully"}
+{"test": "login_simulation", "overall_success": false, "timestamp": 1759141543.1139848, "message": "One or more steps failed; phishing_simulation invoked."}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.1246027946472168, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.7668311595916748, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.106344223022461, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.127140998840332, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.09587407112121582, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.277666091918945, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 2.2786083221435547, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000675201416016, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.1989049911499023, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.7724456787109375, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.116039752960205, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.339567422866821, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.18693232536315918, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.3190529346466064, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": false, "duration": 3.294628143310547, "error": "Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff70f2c1eb5+80197]\n\tGetHandleVerifier [0x0x7ff70f2c1f10+80288]\n\t(No symbol) [0x0x7ff70f0402fa]\n\t(No symbol) [0x0x7ff70f047e5a]\n\t(No symbol) [0x0x7ff70f04af6f]\n\t(No symbol) [0x0x7ff70f04b02f]\n\t(No symbol) [0x0x7ff70f09fd4b]\n\t(No symbol) [0x0x7ff70f09d7ee]\n\t(No symbol) [0x0x7ff70f09a731]\n\t(No symbol) [0x0x7ff70f099620]\n\t(No symbol) [0x0x7ff70f08abc8]\n\t(No symbol) [0x0x7ff70f0c037a]\n\t(No symbol) [0x0x7ff70f08a456]\n\t(No symbol) [0x0x7ff70f0c0590]\n\t(No symbol) [0x0x7ff70f0e87fb]\n\t(No symbol) [0x0x7ff70f0c0153]\n\t(No symbol) [0x0x7ff70f088b02]\n\t(No symbol) [0x0x7ff70f0898d3]\n\tGetHandleVerifier [0x0x7ff70f57e83d+2949837]\n\tGetHandleVerifier [0x0x7ff70f578c6a+2926330]\n\tGetHandleVerifier [0x0x7ff70f5986c7+3055959]\n\tGetHandleVerifier [0x0x7ff70f2dcfee+191102]\n\tGetHandleVerifier [0x0x7ff70f2e50af+224063]\n\tGetHandleVerifier [0x0x7ff70f2caf64+117236]\n\tGetHandleVerifier [0x0x7ff70f2cb119+117673]\n\tGetHandleVerifier [0x0x7ff70f2b10a8+11064]\n\tBaseThreadInitThunk [0x0x7fff7eee259d+29]\n\tRtlUserThreadStart [0x0x7fff80daaf78+40]\n", "screenshot": "screenshots/login_simulation_error_1759142540.png"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00021266937256, "message": "Step successful"}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.2720587253570557, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.6919867992401123, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.322556018829346, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.566802263259888, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.14768052101135254, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.276310443878174, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 2.260169744491577, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00059175491333, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.2403202056884766, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.8035764694213867, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.038636207580566, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.381241798400879, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.09281039237976074, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.927765846252441, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 1.7238452434539795, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000622510910034, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.135387897491455, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.7100663185119629, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 3.9931044578552246, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.099853515625, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11774563789367676, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.371888875961304, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": false, "duration": 2.1686015129089355, "error": "Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff70f2c1eb5+80197]\n\tGetHandleVerifier [0x0x7ff70f2c1f10+80288]\n\t(No symbol) [0x0x7ff70f0402fa]\n\t(No symbol) [0x0x7ff70f047e5a]\n\t(No symbol) [0x0x7ff70f04af6f]\n\t(No symbol) [0x0x7ff70f04b02f]\n\t(No symbol) [0x0x7ff70f099f4d]\n\t(No symbol) [0x0x7ff70f08ab33]\n\t(No symbol) [0x0x7ff70f0c037a]\n\t(No symbol) [0x0x7ff70f08a456]\n\t(No symbol) [0x0x7ff70f0c0590]\n\t(No symbol) [0x0x7ff70f0e87fb]\n\t(No symbol) [0x0x7ff70f0c0153]\n\t(No symbol) [0x0x7ff70f088b02]\n\t(No symbol) [0x0x7ff70f0898d3]\n\tGetHandleVerifier [0x0x7ff70f57e83d+2949837]\n\tGetHandleVerifier [0x0x7ff70f578c6a+2926330]\n\tGetHandleVerifier [0x0x7ff70f5986c7+3055959]\n\tGetHandleVerifier [0x0x7ff70f2dcfee+191102]\n\tGetHandleVerifier [0x0x7ff70f2e50af+224063]\n\tGetHandleVerifier [0x0x7ff70f2caf64+117236]\n\tGetHandleVerifier [0x0x7ff70f2cb119+117673]\n\tGetHandleVerifier [0x0x7ff70f2b10a8+11064]\n\tBaseThreadInitThunk [0x0x7fff7eee259d+29]\n\tRtlUserThreadStart [0x0x7fff80daaf78+40]\n", "screenshot": "screenshots/login_simulation_error_1759143516.png"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000559091567993, "message": "Step successful"}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.2124090194702148, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.655590295791626, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.123779773712158, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.36482048034668, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.08822393417358398, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.2869157791137695, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 2.2576353549957275, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00074863433838, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.2521941661834717, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.7026495933532715, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.087734937667847, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.278489112854004, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.13013029098510742, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.337934732437134, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 2.224349021911621, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00025701522827, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.3170127868652344, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.751359224319458, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.1124162673950195, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.118930339813232, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.2460615634918213, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.978957891464233, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": false, "duration": 2.212648630142212, "error": "Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff70f2c1eb5+80197]\n\tGetHandleVerifier [0x0x7ff70f2c1f10+80288]\n\t(No symbol) [0x0x7ff70f0402fa]\n\t(No symbol) [0x0x7ff70f047e5a]\n\t(No symbol) [0x0x7ff70f04af6f]\n\t(No symbol) [0x0x7ff70f04b02f]\n\t(No symbol) [0x0x7ff70f099f4d]\n\t(No symbol) [0x0x7ff70f08ab33]\n\t(No symbol) [0x0x7ff70f0c037a]\n\t(No symbol) [0x0x7ff70f08a456]\n\t(No symbol) [0x0x7ff70f0c0590]\n\t(No symbol) [0x0x7ff70f0e87fb]\n\t(No symbol) [0x0x7ff70f0c0153]\n\t(No symbol) [0x0x7ff70f088b02]\n\t(No symbol) [0x0x7ff70f0898d3]\n\tGetHandleVerifier [0x0x7ff70f57e83d+2949837]\n\tGetHandleVerifier [0x0x7ff70f578c6a+2926330]\n\tGetHandleVerifier [0x0x7ff70f5986c7+3055959]\n\tGetHandleVerifier [0x0x7ff70f2dcfee+191102]\n\tGetHandleVerifier [0x0x7ff70f2e50af+224063]\n\tGetHandleVerifier [0x0x7ff70f2caf64+117236]\n\tGetHandleVerifier [0x0x7ff70f2cb119+117673]\n\tGetHandleVerifier [0x0x7ff70f2b10a8+11064]\n\tBaseThreadInitThunk [0x0x7fff7eee259d+29]\n\tRtlUserThreadStart [0x0x7fff80daaf78+40]\n", "screenshot": "screenshots/login_simulation_error_1759145440.png"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00046420097351, "message": "Step successful"}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.264232873916626, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.9992120265960693, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.355471849441528, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.746393203735352, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11943912506103516, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.970670461654663, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 2.4295811653137207, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000810623168945, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 3.663188934326172, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 3.4243903160095215, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.869699716567993, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.151784420013428, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11969757080078125, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 9.406968593597412, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 2.3436686992645264, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000885486602783, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.5144286155700684, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 7.625251531600952, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 5.4791929721832275, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.204013109207153, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11075568199157715, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 6.563225746154785, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": false, "duration": 2.5358572006225586, "error": "Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff70f2c1eb5+80197]\n\tGetHandleVerifier [0x0x7ff70f2c1f10+80288]\n\t(No symbol) [0x0x7ff70f0402fa]\n\t(No symbol) [0x0x7ff70f047e5a]\n\t(No symbol) [0x0x7ff70f04af6f]\n\t(No symbol) [0x0x7ff70f04b02f]\n\t(No symbol) [0x0x7ff70f09fd4b]\n\t(No symbol) [0x0x7ff70f09d1af]\n\t(No symbol) [0x0x7ff70f09a731]\n\t(No symbol) [0x0x7ff70f099620]\n\t(No symbol) [0x0x7ff70f08abc8]\n\t(No symbol) [0x0x7ff70f0c037a]\n\t(No symbol) [0x0x7ff70f08a456]\n\t(No symbol) [0x0x7ff70f0c0590]\n\t(No symbol) [0x0x7ff70f0e87fb]\n\t(No symbol) [0x0x7ff70f0c0153]\n\t(No symbol) [0x0x7ff70f088b02]\n\t(No symbol) [0x0x7ff70f0898d3]\n\tGetHandleVerifier [0x0x7ff70f57e83d+2949837]\n\tGetHandleVerifier [0x0x7ff70f578c6a+2926330]\n\tGetHandleVerifier [0x0x7ff70f5986c7+3055959]\n\tGetHandleVerifier [0x0x7ff70f2dcfee+191102]\n\tGetHandleVerifier [0x0x7ff70f2e50af+224063]\n\tGetHandleVerifier [0x0x7ff70f2caf64+117236]\n\tGetHandleVerifier [0x0x7ff70f2cb119+117673]\n\tGetHandleVerifier [0x0x7ff70f2b10a8+11064]\n\tBaseThreadInitThunk [0x0x7fff7eee259d+29]\n\tRtlUserThreadStart [0x0x7fff80daaf78+40]\n", "screenshot": "screenshots/login_simulation_error_1759146825.png"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00009322166443, "message": "Step successful"}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 9.610107898712158, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 13.680028200149536, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 7.917018175125122, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.262376546859741, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.13552546501159668, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 18.652443408966064, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": false, "duration": 2.355548858642578, "error": "Message: stale element reference: stale element not found in the current frame\n  (Session info: chrome=140.0.7339.208); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception\nStacktrace:\n\tGetHandleVerifier [0x0x7ff70f2c1eb5+80197]\n\tGetHandleVerifier [0x0x7ff70f2c1f10+80288]\n\t(No symbol) [0x0x7ff70f0402fa]\n\t(No symbol) [0x0x7ff70f047e5a]\n\t(No symbol) [0x0x7ff70f04af6f]\n\t(No symbol) [0x0x7ff70f04b02f]\n\t(No symbol) [0x0x7ff70f099f4d]\n\t(No symbol) [0x0x7ff70f08ab33]\n\t(No symbol) [0x0x7ff70f0c037a]\n\t(No symbol) [0x0x7ff70f08a456]\n\t(No symbol) [0x0x7ff70f0c0590]\n\t(No symbol) [0x0x7ff70f0e87fb]\n\t(No symbol) [0x0x7ff70f0c0153]\n\t(No symbol) [0x0x7ff70f088b02]\n\t(No symbol) [0x0x7ff70f0898d3]\n\tGetHandleVerifier [0x0x7ff70f57e83d+2949837]\n\tGetHandleVerifier [0x0x7ff70f578c6a+2926330]\n\tGetHandleVerifier [0x0x7ff70f5986c7+3055959]\n\tGetHandleVerifier [0x0x7ff70f2dcfee+191102]\n\tGetHandleVerifier [0x0x7ff70f2e50af+224063]\n\tGetHandleVerifier [0x0x7ff70f2caf64+117236]\n\tGetHandleVerifier [0x0x7ff70f2cb119+117673]\n\tGetHandleVerifier [0x0x7ff70f2b10a8+11064]\n\tBaseThreadInitThunk [0x0x7fff7eee259d+29]\n\tRtlUserThreadStart [0x0x7fff80daaf78+40]\n", "screenshot": "screenshots/login_simulation_error_1759147052.png"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00011444091797, "message": "Step successful"}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.4809606075286865, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 2.3992316722869873, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.7332763671875, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.002418279647827, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11886000633239746, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 5.086694955825806, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.3092620372772217, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000818252563477, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 4.631683349609375, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 4.894859313964844, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 5.517880916595459, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.109553098678589, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.10824918746948242, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 5.118277311325073, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.25493741035461426, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00059485435486, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.5501196384429932, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 3.9377081394195557, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 5.214576482772827, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.149929046630859, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.1051633358001709, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 6.222170352935791, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.24033522605895996, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000437259674072, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 3.783930778503418, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 4.085249423980713, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.52161979675293, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.3499205112457275, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11215400695800781, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 8.125244140625, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.27829909324645996, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00057077407837, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.4229753017425537, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.9349348545074463, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.376095294952393, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.971091032028198, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.17780256271362305, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.907893896102905, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.24966812133789062, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00072431564331, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.5208868980407715, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 5.1148459911346436, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 5.878894567489624, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.740193605422974, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.10793709754943848, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 7.9450461864471436, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.2412548065185547, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000575065612793, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.5802526473999023, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.8080518245697021, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.406910181045532, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.915669918060303, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11686897277832031, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.985795974731445, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.26680922508239746, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00071620941162, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.462618112564087, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 1.0920233726501465, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.465203762054443, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.836352586746216, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.1361687183380127, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.978650331497192, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.22662043571472168, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000336170196533, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 18.188953638076782, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 9.98267126083374, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 5.388896465301514, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 6.167691469192505, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11220026016235352, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 10.38564395904541, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.2275559902191162, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00021719932556, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.7016525268554688, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 2.435129165649414, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 5.292073965072632, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.6240386962890625, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.18616437911987305, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 6.691545248031616, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.4770233631134033, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000160694122314, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.7014267444610596, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.8547828197479248, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.384613513946533, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 5.162724494934082, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.10985016822814941, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 5.1852662563323975, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.21592354774475098, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000365257263184, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.6182005405426025, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 3.0122528076171875, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.402559280395508, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.48185133934021, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.1144707202911377, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.370288133621216, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.1785743236541748, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000251054763794, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 4.647566556930542, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 2.876307249069214, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.2789998054504395, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.855217456817627, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11699461936950684, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.411577463150024, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.20163750648498535, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000884532928467, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 3.4467835426330566, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 2.295389175415039, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.425122261047363, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.628765821456909, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.08411502838134766, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 4.301992654800415, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.19051384925842285, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00059938430786, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 1.4255993366241455, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 4.83590030670166, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.439173221588135, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.834865570068359, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.11304020881652832, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 5.358013153076172, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.17134308815002441, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.00069236755371, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 3.1548988819122314, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 1.8245422840118408, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.556443452835083, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.0222930908203125, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.1210641860961914, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 8.208845615386963, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.17172908782958984, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000356912612915, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 14.140613079071045, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 0.1965796947479248, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 5.043921947479248, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.19160532951355, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.09634041786193848, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 7.93908429145813, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.1479651927947998, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000741481781006, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 3.3924760818481445, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 2.2362751960754395, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.73606538772583, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.616389751434326, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.0952308177947998, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 7.518236875534058, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.14368391036987305, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000388860702515, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 3.073582410812378, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 2.335114002227783, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.431126356124878, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.602185487747192, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.0906529426574707, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 6.79045295715332, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.20179533958435059, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000856161117554, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
+{"test": "login_simulation", "step": "open_page", "success": true, "duration": 3.9799559116363525, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_cognito_button", "success": true, "duration": 2.2138731479644775, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_username", "success": true, "duration": 4.2431745529174805, "message": "Step successful"}
+{"test": "login_simulation", "step": "enter_password_and_signin", "success": true, "duration": 4.310131549835205, "message": "Step successful"}
+{"test": "login_simulation", "step": "maximize_window", "success": true, "duration": 0.1018669605255127, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_element", "success": true, "duration": 6.397183656692505, "message": "Step successful"}
+{"test": "login_simulation", "step": "click_brand_button", "success": true, "duration": 0.13228273391723633, "message": "Step successful"}
+{"test": "login_simulation", "step": "final_wait", "success": true, "duration": 30.000535488128662, "message": "Step successful"}
+{"test": "login_simulation", "overall_success": true}
