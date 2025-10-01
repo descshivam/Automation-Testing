@@ -13,13 +13,13 @@ def smishing_simulation(driver):
 
         # Step 1: Click smishing button
         smishing_btn = WebDriverWait(driver, 30).until(
-            EC.element_to_be_clickable((By.XPATH, "//h3/button/div[contains(., 'Smishing')]"))
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/div/div/div[1]/div[2]/div/div[2]/h3/button/div"))
         )
         smishing_btn.click()
         time.sleep(5)
         # Step 2: Click SMS campaign
         sms_campaign = WebDriverWait(driver, 30).until(
-            EC.element_to_be_clickable((By.XPATH, "//a/button[contains(., 'SMS Campaign')]"))
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/div/div/div[1]/div[2]/div/div[2]/div/div/ul/li[1]/a/button"))
         )
         sms_campaign.click()
         time.sleep(5)
@@ -32,14 +32,14 @@ def smishing_simulation(driver):
 
         # Step 4: Fill campaign name
         campaignname = WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.XPATH, "//input[@type='text']"))
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[4]/div/input"))
         )
         random_campaign_name = "Phishing Campaign " + datetime.datetime.now().strftime("%Y%m%d%H%M%S")
         campaignname.send_keys(random_campaign_name)
 
         # Step 5: Select recipient
         recipient = WebDriverWait(driver, 20).until(
-            EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Select Recipient')]"))
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[5]/div/div/button"))
         )
         recipient.click()
 
@@ -119,27 +119,27 @@ def smishing_simulation(driver):
         )
         suit_campaign.click()
         
-        time.sleep(5)
+        time.sleep(10)
         driver.refresh()
 
-        # ===== Wait for toast =====
-        toast_xpaths = [
-            "//*[contains(@class,'toast') and contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'success')]",
-            "//*[@role='alert' and contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'success')]",
-            "//*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'launched')]"
-        ]
-        toast_found = False
-        for tx in toast_xpaths:
-            try:
-                WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, tx)))
-                toast_found = True
-                break
-            except Exception:
-                continue
+        # # ===== Wait for toast =====
+        # toast_xpaths = [
+        #     "//*[contains(@class,'toast') and contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'success')]",
+        #     "//*[@role='alert' and contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'success')]",
+        #     "//*[contains(translate(.,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'launched')]"
+        # ]
+        # toast_found = False
+        # for tx in toast_xpaths:
+        #     try:
+        #         WebDriverWait(driver, 30).until(EC.visibility_of_element_located((By.XPATH, tx)))
+        #         toast_found = True
+        #         break
+        #     except Exception:
+        #         continue
 
-        if toast_found:
-            print("✅ Smishing campaign launched successfully — moving to vishing_simulation...")
-            vishing_simulation(driver)
+        # if toast_found:
+        #     print("✅ Smishing campaign launched successfully — moving to vishing_simulation...")
+        vishing_simulation(driver)
         # else:
         #     print("⚠️ No success toast detected — skipping vishing_simulation.")
 

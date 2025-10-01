@@ -10,7 +10,7 @@ from pages.smishing_page import smishing_simulation
 def phishing_simulation(driver):
     try:
 
-        time.sleep(50)
+        time.sleep(30)
 
         # Step 1: Click phishing button
         phishing = WebDriverWait(driver, 20).until(
@@ -223,3 +223,139 @@ def phishing_simulation(driver):
         driver.save_screenshot(screenshot_path)
         print(f"Error captured at {screenshot_path}")
         raise e
+import time
+import datetime
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from pages.smishing_page import smishing_simulation
+
+def safe_click(driver, el):
+    """Click element with JS fallback"""
+    try:
+        el.click()
+    except Exception:
+        driver.execute_script("arguments[0].click();", el)
+
+def phishing_simulation(driver):
+    try:
+        # Ensure page is fully loaded
+        WebDriverWait(driver, 30).until(
+            lambda d: d.execute_script("return document.readyState") == "complete"
+        )
+
+        # Unique campaign name
+        campaign_name = "Phishing Campaign " + datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+        print("Creating campaign:", campaign_name)
+
+        # === Create campaign flow ===
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/h3/button"))
+        ))
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/div/div/div[1]/div[2]/div/div[1]/div/div/ul/li[1]/a/button"))
+        ))
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/nav/div/div[2]/button"))
+        ))
+
+        # Campaign name
+        name_input = WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/div[4]/div/div/input"))
+        )
+        name_input.send_keys(campaign_name)
+
+        # Recipient
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/div[5]/div/div/button"))
+        ))
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div[1]/div[1]"))
+        ))
+
+        # Next
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/div[5]/div[2]/button"))
+        ))
+
+        # Template
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/div[4]/div/div/div/button"))
+        ))
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div[2]/button"))
+        ))
+
+        # Next
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[4]/div[2]/button[2]"))
+        ))
+
+        # Landing page
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/div[4]/div/div/button"))
+        ))
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div[1]/div[1]/span[2]"))
+        ))
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[4]/div[2]/div[1]/button"))
+        ))
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div/div[1]/span[2]"))
+        ))
+
+        # Multiple visit + next
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/div[4]/div[2]/div[4]/button"))
+        ))
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/div[4]/div[3]/button[2]"))
+        ))
+
+        # Form name
+        form_input = WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/section[2]/main/div/div[4]/div[1]/div/input'))
+        )
+        form_input.send_keys("test")
+
+        # Sending domain
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/section[2]/main/div/div[5]/div[1]/div/button'))
+        ))
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, '/html/body/div[3]/div/div/div[2]/span[2]'))
+        ))
+
+        # Privacy checkbox
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[5]/div[2]/button"))
+        ))
+
+        # Launch campaign
+        safe_click(driver, WebDriverWait(driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/section[2]/main/div/div[5]/div[3]/button[2]'))
+        ))
+
+        # === Suit Campaign ===
+        suit_btn = WebDriverWait(driver, 30).until(
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/div/div/span/div/button[3]"))
+        )
+        safe_click(driver, suit_btn)
+        print("✅ Clicked Suit Campaign")
+        time.sleep(10)
+        # Refresh after suit
+        driver.refresh()
+        WebDriverWait(driver, 20).until(
+            lambda d: d.execute_script("return document.readyState") == "complete"
+        )
+        print("🔄 Page refreshed after Suit Campaign")
+
+        # === Now run smishing ===
+        smishing_simulation(driver)
+
+    except Exception as e:
+        print("❌ Error in phishing_simulation:", e)
+        driver.save_screenshot("phishing_simulation_error.png")
+        raise
