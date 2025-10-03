@@ -5,7 +5,7 @@ import logging
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from pages.phishing_page import phishing_simulation
+from pages.quishing_page import quishing_simulation
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s:%(message)s')
@@ -104,9 +104,9 @@ def login_simulation(driver):
     steps.append(run_step(driver, "final_wait", lambda: time.sleep(30), test_name))
 
     if any(not s[0] for s in steps):
-        logging.error("Login simulation failed — running phishing_simulation")
+        logging.error("Login simulation failed — running quishing_simulation")
 
-        phishing_simulation(driver)
+        quishing_simulation(driver)
         
         write_audit_entry({"test": test_name, "overall_success": False})
     else:

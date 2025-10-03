@@ -5,22 +5,24 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-# from pages.smishing_page import smishing_simulation
+from pages.vishing_page import vishing_simulation
 
 def deepfake_simulation(driver):
     try:
-        time.sleep(50)
+        time.sleep(30)
         # Step 1: Click phishing button
         phishing = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/div/div/div[1]/div[2]/div/div[6]/h3/button/div"))
         )
         phishing.click()
+        time.sleep(10)
 
         # Step 2: Click email campaign
         emailcampaign = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/div/div/div[1]/div[2]/div/div[6]/div/div/ul/li[1]/a/button"))
         )
         emailcampaign.click()
+        time.sleep(10)
 
         # Step 3: Click create campaign
         createcampaign = WebDriverWait(driver, 20).until(
@@ -32,20 +34,20 @@ def deepfake_simulation(driver):
         campaignname = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/div[4]/div/div/input"))
         )
-        random_campaign_name = "Phishing Campaign " + datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+        random_campaign_name = "Deepfake Campaign " + datetime.datetime.now().strftime("%Y%m%d%H%M%S")
         campaignname.send_keys(random_campaign_name)
 
         # Step 5: Select recipient (Only click if not selected)
         recipient = WebDriverWait(driver, 20).until(
-            EC.element_to_be_clickable((By.XPATH, "/html/body/div/section[2]/main/div/div[5]/div/div/button"))
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[5]/div[1]/div/button"))
         )
         recipient.click()
-        time.sleep(5)
+        # time.sleep(5)
         dropdown_element = WebDriverWait(driver, 20).until(
-            EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div[1]/div[1]"))
+            EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div/div[1]/span[2]"))
         )
         dropdown_element.click()
-        time.sleep(5)
+        # time.sleep(5)
 
         # Step 7:click next button
         submit_button = WebDriverWait(driver, 20).until(
@@ -77,7 +79,7 @@ def deepfake_simulation(driver):
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[4]/div[2]/button[2]"))
         )
         retry_button.click()
-        time.sleep(10)
+        # time.sleep(10)
 
 
         # select landing page
@@ -85,13 +87,13 @@ def deepfake_simulation(driver):
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[4]/div[1]/div/button"))
         )
         landingpage.click()
-        time.sleep(5)
+        # time.sleep(5)
 
         choose = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div[1]/div[1]/span[2]"))
         )
         choose.click()
-        time.sleep(5)
+        # time.sleep(5)
         
         # select time on landing page
         driver.implicitly_wait(10)
@@ -106,7 +108,7 @@ def deepfake_simulation(driver):
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div/div[1]/span[2]"))
         )
         next.click()
-        time.sleep(5)
+        # time.sleep(5)
         
         # click to next button
         next_button = WebDriverWait(driver, 20).until(
@@ -120,21 +122,21 @@ def deepfake_simulation(driver):
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[4]/div[1]/div/button"))
         )       
         voice_template.click()
-        time.sleep(1)  
+        # time.sleep(1)  
         
         # choose voice template 
         voice_template = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[3]/div/div[1]/div[1]/span[2]"))
         )
         voice_template.click()
-        time.sleep(1)  # Let the selection register
+        # time.sleep(1)  # Let the selection register
 
         # Now click the Next button
         next_btn = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[4]/div[2]/button[2]"))
         )
         next_btn.click()
-        time.sleep(10)
+        # time.sleep(10)
         
         # # click next button
         # next_button = WebDriverWait(driver, 20).until(
@@ -167,13 +169,13 @@ def deepfake_simulation(driver):
             EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/section[2]/main/div/div[5]/div[1]/div/button'))
         )
         landingpage .click()
-        time.sleep(5)
+        # time.sleep(5)
 
         choose  = WebDriverWait(driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, '/html/body/div[3]/div/div/div[2]/span[2]'))
         )
         choose.click()
-        time.sleep(5)
+        # time.sleep(5)
         
         # privicy check box 
        
@@ -182,7 +184,7 @@ def deepfake_simulation(driver):
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[5]/div[2]/button"))
         )
         checkbox.click()
-        time.sleep(10)
+        # time.sleep(10)
 
         # click to campaign launch
         choose  = WebDriverWait(driver, 20).until(
@@ -197,7 +199,8 @@ def deepfake_simulation(driver):
             EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/div/div/span/div/div[3]/button"))
         )
         suit_campaign.click()
-        time.sleep(2)
+        time.sleep(10)
+        driver.refresh()
 
         # ===== wait for "campaign launched" toast then call smishing_simulation =====
         try:
@@ -211,7 +214,7 @@ def deepfake_simulation(driver):
             toast_element = None
             for tx in toast_xpaths:
                 try:
-                    toast_element = WebDriverWait(driver, 30).until(
+                    toast_element = WebDriverWait(driver, 15).until(
                         EC.visibility_of_element_located((By.XPATH, tx))
                     )
                     if toast_element:
@@ -220,30 +223,23 @@ def deepfake_simulation(driver):
                     continue
 
             if toast_element:
-                # found a success toast — call smishing
+                # found a success toast — call vishing
                 try:
-                    print("Campaign launch toast detected; calling smishing_simulation.")
+                    print("Campaign launch toast detected; calling vishing_simulation.")
                 except Exception:
                     pass
 
                 try:
-                    deepfake_simulation(driver)
+                    vishing_simulation(driver)
                 except Exception as e:
                     print("deepfake_simulation raised an error:", e)
             else:
                 print("No campaign-launch toast found within timeout; skipping smishing_simulation.")
         except Exception as e:
             print("Toast detection error:", e)
-        # ===== end toast detection + call =====
-
-        time.sleep(5)
         
-        # click on suit campaign
-        checkbox  = WebDriverWait(driver, 20).until(
-            EC.element_to_be_clickable((By.XPATH, "/html/body/div[1]/section[2]/main/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/div[3]/div[1]/div[3]/div[1]/div/div/span/div/button[3]"))
-        )
-        checkbox.click()
-        time.sleep(5)
+
+       
 
     except Exception as e:
         print(f"Error: {e}") 
